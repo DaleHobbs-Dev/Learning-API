@@ -1,0 +1,109 @@
+{
+  "Users": [
+    {
+      "id": 1,
+      "name": "Alice Johnson",
+      "email": "alice.johnson@example.com",
+      "cohort": "Spring 2025"
+    },
+    {
+      "id": 2,
+      "name": "Brian Kim",
+      "email": "brian.kim@example.com",
+      "cohort": "Spring 2025"
+    },
+    {
+      "id": 3,
+      "name": "Carla Rivera",
+      "email": "carla.rivera@example.com",
+      "cohort": "Summer 2025"
+    },
+    {
+      "id": 4,
+      "name": "Derek Lee",
+      "email": "derek.lee@example.com",
+      "cohort": "Fall 2025"
+    }
+  ],
+
+  "Topics": [
+    {
+      "id": 1,
+      "name": "Functions",
+      "description": "Understanding function declarations, expressions, and arrow functions."
+    },
+    {
+      "id": 2,
+      "name": "Asynchronous Programming",
+      "description": "Working with callbacks, promises, and async/await in JavaScript."
+    },
+    {
+      "id": 3,
+      "name": "React Components",
+      "description": "Building reusable UI components with React."
+    }
+  ],
+
+  "Posts": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "topic_id": 1,
+      "title": "Mastering JavaScript Functions",
+      "body": "Today I learned how to write cleaner, reusable functions and how scope works.",
+      "created_at": "2025-10-20T14:23:00Z"
+    },
+    {
+      "id": 2,
+      "user_id": 2,
+      "topic_id": 2,
+      "title": "Async/Await Makes Life Easier",
+      "body": "I refactored a callback-heavy API call using async/await. The code is much more readable now!",
+      "created_at": "2025-10-21T10:05:00Z"
+    },
+    {
+      "id": 3,
+      "user_id": 3,
+      "topic_id": 3,
+      "title": "Breaking Down React Components",
+      "body": "Understanding how to split large UIs into smaller, manageable React components.",
+      "created_at": "2025-10-22T17:40:00Z"
+    },
+    {
+      "id": 4,
+      "user_id": 1,
+      "topic_id": 2,
+      "title": "Promises vs Async/Await",
+      "body": "Experimented with both approaches — async/await feels more intuitive for sequential logic.",
+      "created_at": "2025-10-23T09:12:00Z"
+    }
+  ],
+
+  "UserPostLikes": [
+    {
+      "user_id": 2,
+      "post_id": 1,
+      "liked_at": "2025-10-23T10:00:00Z"
+    },
+    {
+      "user_id": 3,
+      "post_id": 1,
+      "liked_at": "2025-10-23T10:15:00Z"
+    },
+    {
+      "user_id": 1,
+      "post_id": 2,
+      "liked_at": "2025-10-24T09:00:00Z"
+    },
+    {
+      "user_id": 4,
+      "post_id": 2,
+      "liked_at": "2025-10-24T11:22:00Z"
+    },
+    {
+      "user_id": 3,
+      "post_id": 4,
+      "liked_at": "2025-10-24T12:30:00Z"
+    }
+  ]
+}
