@@ -1,5 +1,5 @@
 {
-  "Users": [
+  "users": [
     {
       "id": 1,
       "name": "Alice Johnson",
@@ -31,7 +31,7 @@
       "id": 5
     }
   ],
-  "Topics": [
+  "topics": [
     {
       "id": 1,
       "name": "Functions",
@@ -48,7 +48,7 @@
       "description": "Building reusable UI components with React."
     }
   ],
-  "Posts": [
+  "posts": [
     {
       "id": 1,
       "userId": 1,
@@ -82,7 +82,7 @@
       "created": "2025-10-23T09:12:00Z"
     }
   ],
-  "UserPostLikes": [
+  "userPostLikes": [
     {
       "userId": 2,
       "postId": 1,
