@@ -84,26 +84,31 @@
   ],
   "userPostLikes": [
     {
+      "id": 1,
       "userId": 2,
       "postId": 1,
       "likedAt": "2025-10-23T10:00:00Z"
     },
     {
+      "id": 2,
       "userId": 3,
       "postId": 1,
       "likedAt": "2025-10-23T10:15:00Z"
     },
     {
+      "id": 3,
       "userId": 1,
       "postId": 2,
       "likedAt": "2025-10-24T09:00:00Z"
     },
     {
+      "id": 4,
       "userId": 4,
       "postId": 2,
       "likedAt": "2025-10-24T11:22:00Z"
     },
     {
+      "id": 5,
       "userId": 3,
       "postId": 4,
       "likedAt": "2025-10-24T12:30:00Z"
