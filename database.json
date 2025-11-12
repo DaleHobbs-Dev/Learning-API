@@ -46,6 +46,11 @@
       "id": 3,
       "name": "React Components",
       "description": "Building reusable UI components with React."
+    },
+    {
+      "name": "CSS Frameworks",
+      "description": "Explore various CSS frameworks for your React projects",
+      "id": 4
     }
   ],
   "posts": [
@@ -80,6 +85,38 @@
       "title": "Promises vs Async/Await",
       "body": "Experimented with both approaches — async/await feels more intuitive for sequential logic.",
       "created": "2025-10-23T09:12:00Z"
+    },
+    {
+      "title": "Learning MUI Components",
+      "userId": 5,
+      "topicId": 4,
+      "body": "I learned about how to import and use components from the MUI CSS library",
+      "created": "2025-11-11T06:19:16.724Z",
+      "id": 5
+    },
+    {
+      "title": "Learning about React Bootstrap",
+      "userId": 5,
+      "topicId": 4,
+      "body": "Bootstrap components can be imported into any React project similar to how they are added to HTML webpages!",
+      "created": "2025-11-11T06:34:05.668Z",
+      "id": 6
+    },
+    {
+      "title": "Understanding Callback Functions in JavaScript",
+      "userId": 4,
+      "topicId": 1,
+      "body": "Today I deepened my understanding of how callback functions work in JavaScript.\nI learned that a callback is simply a function passed as an argument to another function, allowing that function to run after a specific task completes.\nIt’s super useful for handling asynchronous operations like API calls or event listeners.\nFor example, I built a small function that fetches user data and then calls another function to display it once the data loads — it helped solidify the concept of “functions as first-class citizens” for me!",
+      "created": "2025-11-12T00:13:19.192Z",
+      "id": 7
+    },
+    {
+      "title": "Mastering Async/Await for Cleaner Code",
+      "userId": 4,
+      "topicId": 2,
+      "body": "Today I learned how using async and await can make asynchronous code much easier to read and maintain.\nInstead of chaining multiple .then() calls, I rewrote my API requests with await, and it felt almost like writing synchronous code.\nI also realized how important try...catch blocks are for handling errors in async functions — they keep everything clean and predictable.\nUnderstanding how promises work behind the scenes made this click for me. Async/await really simplifies working with asynchronous logic in JavaScript!",
+      "created": "2025-11-12T00:29:52.718Z",
+      "id": 8
     }
   ],
   "userPostLikes": [
@@ -112,6 +149,18 @@
       "userId": 3,
       "postId": 4,
       "likedAt": "2025-10-24T12:30:00Z"
+    },
+    {
+      "userId": 2,
+      "postId": 4,
+      "likedAt": "2025-11-08T19:30:40.930Z",
+      "id": 6
+    },
+    {
+      "userId": 2,
+      "postId": 3,
+      "likedAt": "2025-11-08T19:30:57.560Z",
+      "id": 7
     }
   ]
 }
