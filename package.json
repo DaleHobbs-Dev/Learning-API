@@ -1,0 +1,24 @@
+{
+  "name": "learning-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "json-server -p 8088 -w database.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaleHobbs-Dev/Learning-API.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DaleHobbs-Dev/Learning-API/issues"
+  },
+  "homepage": "https://github.com/DaleHobbs-Dev/Learning-API#readme",
+  "description": "",
+  "devDependencies": {
+    "json-server": "^0.17.4"
+  }
+}
